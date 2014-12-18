@@ -5,9 +5,11 @@ synchronous for loop (node.js)
 
 How to use
 ==============
-//Example program , include syncFor module using require
-var syncFor=require('./syncFor'); //syncFor.js is stored in same directory
+//Example program , 
+include syncFor module using require
 ====================================================================================
+var syncFor=require('./syncFor'); //path to syncFor.js 
+
 //the following is how u implement it 
 var arr =   [1,2,3,4,5];
 syncFor(0,arr.length,"start",function(i,status,call){

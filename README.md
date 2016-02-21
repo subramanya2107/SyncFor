@@ -25,9 +25,7 @@ function makeHttpCall(pageNo,callback){
   });
 }
 ```
-Known Issues
-=============
-Failing if length of array is more than 200
+
  
 
 
